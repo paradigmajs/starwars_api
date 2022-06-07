@@ -1,0 +1,40 @@
+.container {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  /* fourzerofour */
+  .fourzerofour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 300px;
+    background: #6c7a86;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .fourzerofour h1,
+  .fourzerofour p {
+    color: transparent;
+    font-weight: bold;
+  }
+  .fourzerofour h1 {
+    margin-bottom: 16px;
+    font-size: 96px;
+  }
+  .fourzerofour p {
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  
